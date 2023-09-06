@@ -1,0 +1,1 @@
+sudo insmod LiME/src/lime-6.1.41-63.114.amzn2023.x86_64.ko "path=./ramdata.mem format=raw" && aws s3 cp ramdata.mem s3://yournamebucket/folder/ramdata.mem
