@@ -1,0 +1,6 @@
+sudo yum install kernel-devel kernel-headers -y
+sudo yum install git -y
+git clone https://github.com/504ensicsLabs/LiME.git
+cd LiME/src
+make
+sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
